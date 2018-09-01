@@ -762,7 +762,23 @@ function reset_mods(player, ops)
 		"NoStretch", "MuteOnError",
 	}
 	local float_mods= {
-		"Boost", "Brake", "Wave", "WavePeriod", "Expand", "ExpandPeriod", "Boomerang", "Hidden", "HiddenOffset", "Sudden", "SuddenOffset", "Dark", "Dark1", "Dark2", "Dark3", "Dark4", "Incoming", "Space", "Hallway", "Distant", "Skew", "Tilt", "Reverse", "Reverse1", "Reverse2", "Reverse3", "Reverse4", "Beat", "BeatOffset", "BeatPeriod", "BeatMult", "BeatY", "BeatYOffset", "BeatYPeriod", "BeatYMult", "BeatZ", "BeatZOffset", "BeatZPeriod", "BeatZMult", "Bumpy", "BumpyOffset", "BumpyPeriod", "BumpyX", "BumpyXOffset", "BumpyXPeriod", "Bumpy1", "Bumpy2", "Bumpy3", "Bumpy4", "Drunk", "DrunkSpeed", "DrunkOffset", "DrunkPeriod", "DrunkZ", "DrunkZSpeed", "DrunkZOffset", "DrunkZPeriod", "Tipsy", "TipsySpeed", "TipsyOffset", "Tornado", "TornadoPeriod", "TornadoOffset", "TornadoY", "TornadoYPeriod", "TornadoYOffset", "TornadoZ", "TornadoZPeriod", "TornadoZOffset", "Bounce", "BouncePeriod", "BounceOffset", "BounceZ", "BounceZPeriod", "BounceZOffset", "Mini", "Tiny", "Tiny1", "Tiny2", "Tiny3", "Tiny4", "PulseInner", "PulseOuter", "PulsePeriod", "PulseOffset", "ShrinkLinear", "ShrinkMult", "Confusion", "ConfusionOffset", "ConfusionX", "ConfusionXOffset", "ConfusionY", "ConfusionYOffset", "ConfusionOffset1", "ConfusionOffset2", "ConfusionOffset3", "ConfusionOffset4", "ConfusionXOffset1", "ConfusionXOffset2", "ConfusionXOffset3", "ConfusionXOffset4", "ConfusionYOffset1", "ConfusionYOffset2", "ConfusionYOffset3", "ConfusionYOffset4", "Dizzy", "DizzyHolds", "Roll", "Twirl", "Alternate", "Centered", "Cross", "Flip", "Invert", "Split", "Xmode", "Blind", "Dark", "MoveX1", "MoveX2", "MoveX3", "MoveX4", "MoveY1", "MoveY2", "MoveY3", "MoveY4", "MoveZ1", "MoveZ2", "MoveZ3", "MoveZ4", "Blink", "RandomVanish", "Stealth", "StealthPastReceptors", "StealthType", "Cover", "DrawSize", "DrawSizeBack", "tanBumpy", "tanBumpyX", "tanDigital", "tanDigitalZ", "tanDrunk", "tanDrunkZ", "tanExpand", "tanTipsy", "tanTornado", "tanTornadoZ", "Cosecant", "ZBuffer", "Digital", "DigitalSteps", "DigitalPeriod", "DigitalOffset", "DigitalZ", "DigitalZSteps", "DigitalZPeriod", "DigitalZOffset", "Square", "SquareSteps", "SquarePeriod", "SquareOffset", "SquareZ", "SquareZSteps", "SquareZPeriod", "SquareZOffset", "ZigZag", "ZigZagPeriod", "ZigZagOffset", "ZigZagZ", "ZigZagZPeriod", "ZigZagZOffset", "Sawtooth", "SawtoothPeriod", "SawtoothZ", "SawtoothZPeriod", "ParabolaX", "ParabolaY", "ParabolaZ", "AttenuateX", "AttenuateY", "AttenuateZ", 
+		"Boost", "Brake", "Wave", "Expand", "Boomerang", "Drunk", "Dizzy",
+		"Confusion", "Mini", "Tiny", "Flip", "Invert", "Tornado", "Tipsy",
+		"Bumpy", "Beat", "Xmode", "Twirl", "Roll", "Hidden", "HiddenOffset",
+		"Sudden", "SuddenOffset", "Stealth", "Blink", "RandomVanish", "Reverse",
+		"Split", "Alternate", "Cross", "Centered", "Dark", "Blind", "Cover",
+		"RandAttack", "NoAttack", "PlayerAutoPlay", "Tilt", "Skew", "Passmark",
+		"RandomSpeed",
+		"Boost", "Brake", "Wave", "WavePeriod", "Expand", "ExpandPeriod", "Boomerang",
+		"Hidden", "HiddenOffset", "Sudden", "SuddenOffset", "Dark", "Dark1", "Dark2", "Dark3", "Dark4",
+		"Incoming", "Space", "Hallway", "Distant", "Skew", "Tilt", "Reverse", "Reverse1", "Reverse2", "Reverse3", "Reverse4",
+		"Mini", "Tiny", "Tiny1", "Tiny2", "Tiny3", "Tiny4", "PulseInner", "PulseOuter", "PulsePeriod", "PulseOffset", "ShrinkLinear", "ShrinkMult",
+		"Confusion", "ConfusionOffset", "ConfusionX", "ConfusionXOffset", "ConfusionY", "ConfusionYOffset", "ConfusionOffset1", "ConfusionOffset2", "ConfusionOffset3", "ConfusionOffset4", "ConfusionXOffset1", "ConfusionXOffset2", "ConfusionXOffset3", "ConfusionXOffset4", "ConfusionYOffset1", "ConfusionYOffset2", "ConfusionYOffset3", "ConfusionYOffset4", "Dizzy", "DizzyHolds", "Roll", "Twirl",
+		"Alternate", "Centered", "Cross", "Flip", "Invert", "Split", "Xmode", "Blind", "Dark", "MoveX1", "MoveX2", "MoveX3", "MoveX4", "MoveY1", "MoveY2", "MoveY3", "MoveY4", "MoveZ1", "MoveZ2", "MoveZ3", "MoveZ4", "Blink", "RandomVanish", "Stealth", "StealthPastReceptors", "StealthType", "Cover", "DrawSize", "DrawSizeBack",
+	}
+	local float_mods_2_electric_boogaloo= {
+		"Beat", "BeatOffset", "BeatPeriod", "BeatMult", "BeatY", "BeatYOffset", "BeatYPeriod", "BeatYMult", "BeatZ", "BeatZOffset", "BeatZPeriod", "BeatZMult", "Bumpy", "BumpyOffset", "BumpyPeriod", "BumpyX", "BumpyXOffset", "BumpyXPeriod", "Bumpy1", "Bumpy2", "Bumpy3", "Bumpy4", "Drunk", "DrunkSpeed", "DrunkOffset", "DrunkPeriod", "DrunkZ", "DrunkZSpeed", "DrunkZOffset", "DrunkZPeriod", "Tipsy", "TipsySpeed", "TipsyOffset", "Tornado", "TornadoPeriod", "TornadoOffset", "TornadoZ", "TornadoZPeriod", "TornadoZOffset", "Bounce", "BouncePeriod", "BounceOffset", "BounceZ", "BounceZPeriod", "BounceZOffset",
+		"Digital", "DigitalSteps", "DigitalPeriod", "DigitalOffset", "DigitalZ", "DigitalZSteps", "DigitalZPeriod", "DigitalZOffset", "SquarePeriod", "SquareOffset", "SquareZ", "SquareZPeriod", "SquareZOffset", "Zigzag", "ZigzagPeriod", "ZigzagOffset", "ZigzagZ", "ZigzagZPeriod", "ZigzagZOffset", "Sawtooth", "SawtoothPeriod", "SawtoothZ", "SawtoothZPeriod", "ParabolaX", "ParabolaY", "ParabolaZ", "AttenuateX", "AttenuateY", "AttenuateZ",
 	}
 	for i, mod in ipairs(specific_mods) do
 		ops[mod[1]](ops, mod[2])
@@ -771,6 +787,9 @@ function reset_mods(player, ops)
 		ops[mod](ops, false)
 	end
 	for i, mod in ipairs(float_mods) do
+		ops[mod](ops, 0)
+	end
+	for i, mod in ipairs(float_mods_2_electric_boogaloo) do
 		ops[mod](ops, 0)
 	end
 	if player.cons_mods_set then
