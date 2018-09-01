@@ -1123,8 +1123,7 @@ local spin_mods= {
 }
 
 local target_mods= {
-	"Alternate", "Centered", "Cross", "Flip", "Invert", "Split",
-	"Xmode", "Blind", "Dark", "MoveX1", "MoveX2", "MoveX3", "MoveX4", "MoveY1", "MoveY2", "MoveY3", "MoveY4", "MoveZ1", "MoveZ2", "MoveZ3", "MoveZ4",
+	"Alternate", "Centered", "Cross", "Flip", "Invert", "Split", "Xmode", "Blind", "Dark", "MoveX1", "MoveX2", "MoveX3", "MoveX4", "MoveY1", "MoveY2", "MoveY3", "MoveY4", "MoveZ1", "MoveZ2", "MoveZ3", "MoveZ4",
 }
 
 local visibility_mods= {
