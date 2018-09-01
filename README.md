@@ -1,6 +1,4 @@
 # consensual-5.1-mods
-currently brokke, please wait...
-
 its the consensual theme but with the mods added in the 5.1 beta available for use
 
 theme by Kyzentun, 5.1 mods added by me
