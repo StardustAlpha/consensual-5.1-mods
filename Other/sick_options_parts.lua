@@ -1109,9 +1109,9 @@ local hidden_mods= {
 local perspective_mods= {
 	"Incoming", "Space", "Hallway", "Distant", "Skew", "Tilt", "Reverse", "Reverse1", "Reverse2", "Reverse3", "Reverse4", 
 }
-
+--sick
 local sickness_mods= {
-	 "Beat", "BeatOffset", "BeatPeriod", "BeatMult", "BeatY", "BeatYOffset", "BeatYPeriod", "BeatYMult", "BeatZ", "BeatZOffset", "BeatZPeriod", "BeatZMult", "Bumpy", "BumpyOffset", "BumpyPeriod", "BumpyX", "BumpyXOffset", "BumpyXPeriod", "Bumpy1", "Bumpy2", "Bumpy3", "Bumpy4", "Drunk", "DrunkSpeed", "DrunkOffset", "DrunkPeriod", "DrunkZ", "DrunkZSpeed", "DrunkZOffset", "DrunkZPeriod", "Tipsy", "TipsySpeed", "TipsyOffset", "Tornado", "TornadoPeriod", "TornadoOffset", "TornadoY", "TornadoYPeriod", "TornadoYOffset", "TornadoZ", "TornadoZPeriod", "TornadoZOffset", "Bounce", "BouncePeriod", "BounceOffset", "BounceZ", "BounceZPeriod", "BounceZOffset",
+	 "Beat", "BeatOffset", "BeatPeriod", "BeatMult", "BeatY", "BeatYOffset", "BeatYPeriod", "BeatYMult", "BeatZ", "BeatZOffset", "BeatZPeriod", "BeatZMult", "Bumpy", "BumpyOffset", "BumpyPeriod", "BumpyX", "BumpyXOffset", "BumpyXPeriod", "Bumpy1", "Bumpy2", "Bumpy3", "Bumpy4", "Drunk", "DrunkSpeed", "DrunkOffset", "DrunkPeriod", "DrunkZ", "DrunkZSpeed", "DrunkZOffset", "DrunkZPeriod", "Tipsy", "TipsySpeed", "TipsyOffset", "Tornado", "TornadoPeriod", "TornadoOffset", "TornadoZ", "TornadoZPeriod", "TornadoZOffset", "Bounce", "BouncePeriod", "BounceOffset", "BounceZ", "BounceZPeriod", "BounceZOffset",
 }
 
 local size_mods= {
@@ -1127,16 +1127,16 @@ local target_mods= {
 }
 
 local visibility_mods= {
-	"Blink", "RandomVanish", "Stealth", "StealthPastReceptors", "StealthType", "Cover", "DrawSize", "DrawSizeBack",
+	"Blink", "RandomVanish", "Stealth", "StealthPastReceptors", "StealthType", "Cover",
 	-- "PlayerAutoPlay", "Passmark", TODO?  Add support for these mods.
 }
 
 local tan_mods= {
-	"tanBumpy", "tanBumpyX", "tanDigital", "tanDigitalZ", "tanDrunk", "tanDrunkZ", "tanExpand", "tanTipsy", "tanTornado", "tanTornadoZ", "Cosecant", "ZBuffer",
+	"Cosecant", "ZBuffer", "DrawSize", "DrawSizeBack",
 }
-
+--path
 local path_mods= {
-	"Digital", "DigitalSteps", "DigitalPeriod", "DigitalOffset", "DigitalZ", "DigitalZSteps", "DigitalZPeriod", "DigitalZOffset", "Square", "SquareSteps", "SquarePeriod", "SquareOffset", "SquareZ", "SquareZSteps", "SquareZPeriod", "SquareZOffset", "ZigZag", "ZigZagPeriod", "ZigZagOffset", "ZigZagZ", "ZigZagZPeriod", "ZigZagZOffset", "Sawtooth", "SawtoothPeriod", "SawtoothZ", "SawtoothZPeriod", "ParabolaX", "ParabolaY", "ParabolaZ", "AttenuateX", "AttenuateY", "AttenuateZ",
+	"Digital", "DigitalSteps", "DigitalPeriod", "DigitalOffset", "DigitalZ", "DigitalZSteps", "DigitalZPeriod", "DigitalZOffset", "Square", "SquarePeriod", "SquareOffset", "SquareZ", "SquareZPeriod", "SquareZOffset", "Zigzag", "ZigzagPeriod", "ZigzagOffset", "ZigzagZ", "ZigzagZPeriod", "ZigzagZOffset", "Sawtooth", "SawtoothPeriod", "SawtoothZ", "SawtoothZPeriod", "ParabolaX", "ParabolaY", "ParabolaZ", "AttenuateX", "AttenuateY", "AttenuateZ",
 }
 
 local floaty_mods= {
