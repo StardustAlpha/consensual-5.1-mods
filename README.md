@@ -16,3 +16,7 @@ A:5.1 beta 1 added a ton of new mods. The changelog lists them. Check the change
 Q:What happened to TornadoY?
 
 A:Apparently it doesnt exist.
+
+Q:Did you fix the 'no song wheel sections' issue yet?
+
+A:It is fixed now. Please re-download.
