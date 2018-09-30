@@ -3,20 +3,8 @@ its the consensual theme but with the mods added in the 5.1 beta available for u
 
 theme by Kyzentun, 5.1 mods added by me
 
-questions people probably want answers to:
+list of 5.1 mods: https://github.com/stepmania/stepmania/releases/tag/v5.1.0-b1
 
-Q:Does 'Reset Mods' reset the new mods too?
+other tweaks and changes:
 
-A:It should.
-
-Q:New mods?
-
-A:5.1 beta 1 added a ton of new mods. The changelog lists them. Check the changelog here: https://github.com/stepmania/stepmania/releases/tag/v5.1.0-b1
-
-Q:What happened to TornadoY?
-
-A:Apparently it doesnt exist.
-
-Q:Did you fix the 'no song wheel sections' issue yet?
-
-A:It is fixed now. Please re-download.
+chuunibyou now swaps the notefeilds when in multiplayer, instead of layering them.
