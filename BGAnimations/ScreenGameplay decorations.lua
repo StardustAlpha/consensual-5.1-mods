@@ -101,8 +101,8 @@ if true_gameplay and (cons_players[PLAYER_1].chuunibyou or
 		}
 	else
 		chuunibyou_sides= {
-			[true]= player_sides[PLAYER_1],
-			[false]= player_sides[PLAYER_2]
+			[false]= player_sides[PLAYER_1],
+			[true]= player_sides[PLAYER_2]
 		}
 		if gamestate_get_curr_steps(enabled[1]) ==
 		gamestate_get_curr_steps(enabled[2]) then
