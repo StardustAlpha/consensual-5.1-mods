@@ -1259,10 +1259,11 @@ local chart_mods= {
 	ass_bools("Turn", {"Mirror", "Backwards", "Left", "Right",
 										 "Shuffle", "SoftShuffle", "SuperShuffle"}),
 	ass_bools("Inserts", {"Big", "BMRize", "Echo", "Floored", "Little",
-												"Planted", "AttackMines", "Quick", "Skippy", "Stomp",
+												"Planted", "Quick", "Skippy", "Stomp",
 												"Twister", "Wide"}),
 	ass_bools("No", {"HoldRolls", "NoJumps","NoHands","NoQuads", "NoStretch",
-									 "NoLifts", "NoFakes", "NoMines", "NoRolls"}),
+									 "NoLifts", "NoFakes", "NoMines", "Add", "NoRolls"}),
+	ass_bools("Mine Stuff", {"AttackMines", "NoMines", "Mines"}),
 }
 
 local song_options= {
